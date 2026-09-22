@@ -20,7 +20,7 @@ export default function ProductCard({ product }) {
         </div>
         <p className="font-label-md text-label-md text-secondary mb-1">{product.detail}</p>
         <h3 className="font-headline-sm text-headline-sm text-primary font-bold">{product.name}</h3>
-        <p className="font-body-md text-body-md text-on-surface-variant mt-1">
+        <p className="font-body-md text-sm sm:text-body-md text-on-surface-variant mt-1">
           {product.description}
         </p>
       </div>

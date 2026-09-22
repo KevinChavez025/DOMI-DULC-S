@@ -6,6 +6,7 @@ import ComoPedir from "./components/ComoPedir.jsx";
 import Faq from "./components/Faq.jsx";
 import Cta from "./components/Cta.jsx";
 import Footer from "./components/Footer.jsx";
+import WhatsappFloat from "./components/WhatsappFloat.jsx";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <Cta />
       </main>
       <Footer />
+      <WhatsappFloat />
     </>
   );
 }
