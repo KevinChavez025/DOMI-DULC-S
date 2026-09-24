@@ -29,3 +29,30 @@ body {
   -webkit-font-smoothing: antialiased;
   font-feature-settings: "liga";
 }
+
+
+:root {
+  --color-background: 252 249 245;
+  --color-surface: 252 249 245;
+  --color-surface-container-low: 246 243 239;
+  --color-surface-container: 240 237 233;
+  --color-surface-container-high: 234 232 228;
+  --color-surface-container-highest: 229 226 222;
+  --color-surface-container-lowest: 255 255 255;
+  --color-primary: 49 25 8;
+  --color-on-surface-variant: 80 68 62;
+  --color-on-surface: 28 28 26;
+}
+
+.dark {
+  --color-background: 26 20 16;
+  --color-surface: 26 20 16;
+  --color-surface-container-low: 34 27 22;
+  --color-surface-container: 42 34 27;
+  --color-surface-container-high: 51 41 34;
+  --color-surface-container-highest: 61 50 41;
+  --color-surface-container-lowest: 34 27 22;
+  --color-primary: 240 230 220;
+  --color-on-surface-variant: 200 188 178;
+  --color-on-surface: 240 237 233;
+}

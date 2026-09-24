@@ -1,4 +1,12 @@
 /** @type {import('tailwindcss').Config} */
+
+function withOpacity(variable) {
+  return ({ opacityValue }) => {
+    if (opacityValue === undefined) return `rgb(var(${variable}))`;
+    return `rgb(var(${variable}) / ${opacityValue})`;
+  };
+}
+
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
@@ -11,15 +19,15 @@ export default {
         "on-error": "#ffffff",
         error: "#ba1a1a",
         "on-tertiary-fixed-variant": "#862117",
-        "surface-container-high": "#eae8e4",
+        "surface-container-high": withOpacity("--color-surface-container-high"),
         "tertiary-container": "#6c0d07",
         "surface-bright": "#fcf9f5",
         "secondary-fixed": "#6bfe9c",
         "outline-variant": "#d4c3bb",
-        background: "#fcf9f5",
+        background: withOpacity("--color-background"),
         "on-tertiary-container": "#f87563",
         "inverse-surface": "#31302e",
-        "surface-container-low": "#f6f3ef",
+        "surface-container-low": withOpacity("--color-surface-container-low"),
         "on-tertiary": "#ffffff",
         "on-secondary-container": "#00743a",
         "surface-tint": "#795741",
@@ -27,24 +35,24 @@ export default {
         outline: "#82746d",
         "surface-dim": "#dcdad6",
         "on-background": "#1c1c1a",
-        "surface-container": "#f0ede9",
-        primary: "#311908",
+        "surface-container": withOpacity("--color-surface-container"),
+        primary: withOpacity("--color-primary"),
         "on-error-container": "#93000a",
         "primary-fixed": "#ffdbc7",
         "on-secondary-fixed": "#00210c",
-        "on-surface": "#1c1c1a",
-        "on-surface-variant": "#50443e",
+        "on-surface": withOpacity("--color-on-surface"),
+        "on-surface-variant": withOpacity("--color-on-surface-variant"),
         secondary: "#006d37",
         "primary-container": "#4a2e1b",
         "on-primary-container": "#bd957c",
         "on-secondary-fixed-variant": "#005228",
         "on-primary": "#ffffff",
         "inverse-primary": "#eabda3",
-        surface: "#fcf9f5",
-        "surface-container-highest": "#e5e2de",
+        surface: withOpacity("--color-surface"),
+        "surface-container-highest": withOpacity("--color-surface-container-highest"),
         "primary-fixed-dim": "#eabda3",
         "error-container": "#ffdad6",
-        "surface-container-lowest": "#ffffff",
+        "surface-container-lowest": withOpacity("--color-surface-container-lowest"),
         "on-primary-fixed": "#2d1605",
         "on-tertiary-fixed": "#410000",
         "surface-variant": "#e5e2de",

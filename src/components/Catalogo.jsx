@@ -31,7 +31,7 @@ export default function Catalogo() {
                   onClick={() => setFiltro(f.id)}
                   className={`px-4 py-2 rounded-full font-label-md text-label-md font-bold whitespace-nowrap transition-all ${
                     activo
-                      ? "bg-primary text-on-primary"
+                      ? "bg-[#311908] text-on-primary"
                       : "bg-surface-container text-on-surface-variant hover:text-primary"
                   }`}
                 >
@@ -61,7 +61,7 @@ export default function Catalogo() {
             href={waLink("Hola DOMI DULC'S! Tengo una consulta para una torta a medida.")}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-bold hover:bg-primary-container transition-all whitespace-nowrap"
+            className="px-6 py-3 rounded-full bg-[#311908] text-on-primary font-label-lg text-label-lg font-bold hover:bg-primary-container transition-all whitespace-nowrap"
           >
             Consultar torta a medida
           </a>

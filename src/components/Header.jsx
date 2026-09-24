@@ -2,6 +2,7 @@ import { useState } from "react";
 import { site, waLink } from "../data/site.js";
 import Img from "./Img.jsx";
 import { FaWhatsapp } from "react-icons/fa";
+import ThemeToggle from "./ThemeToggle.jsx";
 
 const links = [
   { href: "#inicio", label: "Inicio" },
@@ -55,6 +56,8 @@ export default function Header() {
             <FaWhatsapp className="w-5 h-5 text-secondary" />
             <span className="hidden md:inline">Pedir por WhatsApp</span>
           </a>
+
+          <ThemeToggle />
 
           <button
             type="button"

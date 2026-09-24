@@ -11,14 +11,14 @@ export default function ProductCard({ product }) {
             alt={product.name}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
-          <div className="absolute top-3 left-3 bg-surface-container-high text-primary px-3 py-1 rounded-full font-label-sm text-label-sm shadow-sm">
+          <div className="absolute top-3 left-3 bg-surface-container-high text-primary px-3 py-1 rounded-full font-label-sm text-label-sm font-bold shadow-sm">
             {product.size}
           </div>
           <div className="absolute bottom-3 right-3 bg-surface-container-lowest text-primary px-3 py-1 rounded-full font-label-lg text-label-lg font-bold shadow-md">
             {product.price}
           </div>
         </div>
-        <p className="font-label-md text-label-md text-secondary mb-1">{product.detail}</p>
+        <p className="font-label-md text-label-md text-secondary font-bold mb-1">{product.detail}</p>
         <h3 className="font-headline-sm text-headline-sm text-primary font-bold">{product.name}</h3>
         <p className="font-body-md text-sm sm:text-body-md text-on-surface-variant mt-1">
           {product.description}

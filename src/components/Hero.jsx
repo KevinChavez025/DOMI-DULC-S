@@ -26,7 +26,7 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop relative z-10 py-space-lg lg:py-space-xl w-full">
         <div className="max-w-2xl flex flex-col items-start gap-space-sm sm:gap-space-md">
           <div className="flex flex-wrap items-center gap-space-xs">
-            <span className="px-3 py-1 sm:px-space-md sm:py-1.5 rounded-full bg-primary text-on-primary text-[11px] sm:text-label-sm flex items-center gap-1 whitespace-nowrap">
+            <span className="px-3 py-1 sm:px-space-md sm:py-1.5 rounded-full bg-[#311908] text-on-primary text-sm sm:text-label-sm font-semibold flex items-center gap-1 whitespace-nowrap">
               <span className="material-symbols-outlined text-xs text-secondary-fixed">local_fire_department</span>
               Horneado hoy
             </span>
@@ -77,7 +77,7 @@ export default function Hero() {
                 </div>
                 <div>
                   <p className="text-white font-bold text-sm sm:text-label-md">{b.titulo}</p>
-                  <p className="text-white/80 text-xs sm:text-label-sm">{b.texto}</p>
+                  <p className="text-white/80 text-sm sm:text-label-sm">{b.texto}</p>
                 </div>
               </div>
             ))}

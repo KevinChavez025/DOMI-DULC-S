@@ -68,7 +68,7 @@ export default function Eventos() {
                 href={waLink("Hola DOMI DULC'S! Quiero cotizar una torta o mesa dulce para un evento.")}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-space-sm px-8 py-4 rounded-full bg-primary text-on-primary font-title-md text-title-md font-bold shadow-lg hover:bg-primary-container transition-all"
+                className="inline-flex items-center gap-space-sm px-8 py-4 rounded-full bg-[#311908] text-on-primary font-title-md text-title-md font-bold shadow-lg hover:bg-primary-container transition-all"
               >
                 Cotizar evento por WhatsApp
               </a>
