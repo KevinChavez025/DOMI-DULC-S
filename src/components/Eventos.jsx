@@ -4,12 +4,12 @@ import Img from "./Img.jsx";
 const puntos = [
   {
     icon: "palette",
-    titulo: "Diseno y tematica a tu gusto",
+    titulo: "Diseño y temática a tu gusto",
     texto: "Fondant, efecto acuarela, flores comestibles y toppers con tu nombre o motivo.",
   },
   {
     icon: "lunch_dining",
-    titulo: "Degustacion previa",
+    titulo: "Degustación previa",
     texto: "Para eventos de mas de 50 invitados, prueba 4 combinaciones de bizcocho y relleno.",
   },
   {
@@ -45,7 +45,7 @@ export default function Eventos() {
               Tortas para tus grandes celebraciones
             </h2>
             <p className="font-body-lg text-body-lg text-on-surface-variant">
-              Bodas, cumpleanos, 15 anos y baby showers. Trabajamos contigo para crear una pieza
+              Bodas, cumpleaños, 15 años y baby showers. Trabajamos contigo para crear una pieza
               central que se vea bien y sepa mejor.
             </p>
 

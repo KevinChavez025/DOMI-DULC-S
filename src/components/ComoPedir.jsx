@@ -1,7 +1,7 @@
 const pasos = [
   {
     titulo: "Elige tu torta o dulce",
-    texto: "Mira el catalogo y escoge el producto, el tamano y la tematica que quieras.",
+    texto: "Mira el catalogo y escoge el producto, el tamaño y la tematica que quieras.",
   },
   {
     titulo: "Escribenos por WhatsApp",

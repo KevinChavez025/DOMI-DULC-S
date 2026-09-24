@@ -1,84 +1,127 @@
-// Productos del catalogo. Precios y fotos son PLACEHOLDER del boceto.
-// category: "tortas" o "individuales" (usado por los filtros).
+// Productos del catalogo. category: "tortas" o "individuales" (usado por los filtros).
+
+import tortaCafeImg from "../assets/productos/torta_cafe.webp";
+import tortaHeladaImg from "../assets/productos/torta_helada.webp";
+import tortaRedVelvetImg from "../assets/productos/torta_red_velvet.webp";
+import tortaSelvaNegraImg from "../assets/productos/torta_selva_negra.webp";
+import tortaTresLechesImg from "../assets/productos/torta_tres_leches.webp";
+import pionomoFrutadoImg from "../assets/productos/pionono_frutado.webp";
+import tartaletaFresaImg from "../assets/productos/tartaleta_fresa.webp";
+import pastelAcelgaImg from "../assets/productos/pastel_acelga.webp";
+import alfajoresImg from "../assets/productos/alfajores.webp";
+import browniesImg from "../assets/productos/brownies.webp";
+import empanadaMixtaImg from "../assets/productos/empanada_mixta.webp";
 
 export const products = [
   {
-    id: "torta-trufada",
+    id: "torta-cafe",
     category: "tortas",
-    name: "Torta Humeda Trufada con Ganache",
-    detail: "Chocolate 70% y cafe",
-    description:
-      "Bizcocho artesanal humedo, relleno de doble mousse de chocolate amargo y cobertura sedosa.",
+    name: "Torta de Cafe",
+    detail: "Bizcocho de cafe y crema",
+    description: "Bizcocho humedo con esencia de cafe, relleno cremoso y cobertura suave.",
     size: "10-14 porciones",
-    price: "S/ 85",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBIgMIAK7l4hzWVA7RXPguKsFbE8g9j7gCIG0XEspKkHn_F4Fkherryaya0em4ixbmi_F2xB2OnzF8gmj6VaLzLNNcjXYTFw8Exm3xRekui-0CcDUj6Sle2_48GI_wDbHgr30SeSxz6gvxO2Zab4uYjHQexnhVIe_V9Al5sQ6E3RXbG69P6J19rNtoTdFuD46TxokuO95-izga0PNYAQxiTZBPdZ_vH9Dr2YqggubYaoufL5bse9Wkb",
-    mensaje: "Hola DOMI DULC'S! Deseo pedir la Torta Humeda Trufada con Ganache",
+    image: tortaCafeImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir la Torta de Cafe",
   },
   {
-    id: "cupcakes-mint-cherry",
-    category: "individuales",
-    name: "Cupcakes DOMI Mint & Cherry",
-    detail: "Edicion especial DOMI",
-    description:
-      "Masa esponjosa de vainilla o chocolate, con buttercream de menta suave y una cereza encima.",
-    size: "Pack x6",
-    price: "S/ 45",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuB44MdkPKFs-Xc30dXH2Qnn1Qp0XbnL76doWyNk7fFbhtK6ABeFApDWEU1Pdh2SXSdZL8xo0t9NnJJbIu26sLUF3wAcgTg28MeoBFLSLMl6LY2dFC9uLF74UE7zHrt3-YCZgZhqXkOC9i-TGaS5420ciGd2o9WFfzfooo9YY84-RQEMopgNa7DYqUTylDC3PSrLPjQAru_aAMIgO8yx87Wj91ivpB5pI6C-fL2SM65FDN9jMQlpsm9w",
-    mensaje: "Hola DOMI DULC'S! Quiero ordenar el Pack de Cupcakes DOMI Mint y Cherry",
-  },
-  {
-    id: "cheesecake-bosque",
+    id: "torta-helada",
     category: "tortas",
-    name: "Cheesecake Horneado Frutos del Bosque",
-    detail: "Queso crema y frutos rojos",
-    description:
-      "Base crocante de galleta, relleno sedoso horneado lentamente y confitura casera de frambuesas y moras.",
-    size: "12-16 porciones",
-    price: "S/ 80",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuApqEXDHsfJ_IJPQZhvCvc99b8Hx-LUOUWSevPgmZiYP9lp0OtFQWpVjK8T1Mb7SKhwx7XNE4VTVPM7Ty0gwhDYq1lEdmdt0REsKWJE4pReaCCIkMixe_z7c3DCDFDhxh8VvrnUnOVABnOUbgc1yB3xGBLHU4HBp3FUc-9gbOoPf2vHkeoqTJwwkLqQS2m-ImgEUDR11d01RuHUpyBbfJONfWtC6iiofYSi9nN_5KizWzBZTWRNYKOs",
-    mensaje: "Hola DOMI DULC'S! Quiero pedir el Cheesecake de Frutos del Bosque",
+    name: "Torta Helada",
+    detail: "Capas frias y cremosas",
+    description: "Torta helada con capas de crema y bizcocho, ideal para el calor.",
+    size: "10-12 porciones",
+    image: tortaHeladaImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir la Torta Helada",
   },
   {
-    id: "mega-cookies",
-    category: "individuales",
-    name: "Mega Cookies NY Style",
-    detail: "Rellenas de Nutella o manjar",
-    description:
-      "Crocantes por fuera y fundentes por dentro, con sal marina y chips de chocolate semiamargo.",
-    size: "Caja x4 (130 g c/u)",
-    price: "S/ 38",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuDqHew8flJ4VrZsaBF82OY-MtAeTqJFuOQ4fgILolFq5-ruJy97uIrMnE0VyCJ1jAxOJ2it5VJ_AEaEruW2QNUywRhQbe05O0guvPeosK3salFUoXfG0BeuEnTEGgUrG_GWuK5vi9hZUPFP_eEhTJZm5IJ72gKeeeHf7g7Akl5I0GM-zo3NI_xTmYfRzOc2McDTaIP2HeF4nvP89Hiod-EFFSH0m7ZiG5Ji4nm59GK-7ITWclVKHBXS",
-    mensaje: "Hola DOMI DULC'S! Quiero la Caja de Mega Cookies NY Style",
+    id: "torta-red-velvet",
+    category: "tortas",
+    name: "Torta Red Velvet",
+    detail: "Con queso crema",
+    description: "Bizcocho rojo aterciopelado con relleno y cobertura de queso crema.",
+    size: "10-14 porciones",
+    image: tortaRedVelvetImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir la Torta Red Velvet",
+  },
+  {
+    id: "torta-selva-negra",
+    category: "tortas",
+    name: "Torta Selva Negra",
+    detail: "Chocolate y cerezas",
+    description: "Bizcocho de chocolate, crema chantilly y cerezas entre cada capa.",
+    size: "12-16 porciones",
+    image: tortaSelvaNegraImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir la Torta Selva Negra",
   },
   {
     id: "tres-leches",
     category: "tortas",
-    name: "Tres Leches Artesanal de la Casa",
+    name: "Tres Leches Artesanal",
     detail: "Con canela y merengue",
-    description:
-      "Bizcocho aireado banado en tres leches con vainilla, coronado con merengue italiano flameado.",
+    description: "Bizcocho aireado banado en tres leches, coronado con merengue.",
     size: "10-12 porciones",
-    price: "S/ 70",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuBTXHxKg8ddH1BjlQQjy2uCR6pMLC2xtZUXiu7h7OrK1q0IIZQU3hZFe42F1yPUZIc2TuS78puWNDnfu2_0vR3AHuz31h3s-PdT0eRdoq0Hbk1-Abh4ingaXm3BzRXeW4r4MXd2Gq6OtoOT3UoZyKJ_yIai6eibWz-p1aLVmgC62uWWCmSJOJ0Jd7UpMYW8RSRiQvo61VjShV4ALW3Aa7ggRPpPsrkwsfYxFSdn0PTq_kT5mFpZYd95",
-    mensaje: "Hola DOMI DULC'S! Me encantaria pedir la Torta Tres Leches Artesanal",
+    image: tortaTresLechesImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir la Torta Tres Leches",
   },
   {
-    id: "box-mixto",
+    id: "pionono-frutado",
+    category: "tortas",
+    name: "Pionono Frutado",
+    detail: "Relleno de frutas y crema",
+    description: "Bizcocho enrollado relleno de crema y frutas de estacion.",
+    size: "8-10 porciones",
+    image: pionomoFrutadoImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir el Pionono Frutado",
+  },
+  {
+    id: "tartaleta-fresa",
+    category: "tortas",
+    name: "Tartaleta de Fresa",
+    detail: "Crema pastelera y fresas",
+    description: "Base crocante con crema pastelera y fresas frescas por encima.",
+    size: "6-8 porciones",
+    image: tartaletaFresaImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir la Tartaleta de Fresa",
+  },
+  {
+    id: "pastel-acelga",
     category: "individuales",
-    name: "Box Mixto: Alfajores y Brownies",
-    detail: "Alfajores + brownies con nuez",
-    description:
-      "6 alfajores de maicena con extra manjar y 4 brownies intensos con nueces tostadas.",
-    size: "Caja de degustacion",
-    price: "S/ 50",
-    image:
-      "https://lh3.googleusercontent.com/aida-public/AB6AXuCzvT62BLnLqnRbw1gknPiBGs_Gefyv5aSNs8PQAdwS6l1bDIGzqzsRfdtCr1HelrbZ7EOhEyejEZdOrHsUbJpX6e_6iYr-O4D-4fMePiAoEqW7cFNoFGb8u7LeJlXwqsnq697e_BWsLY3pW8oRxw_RjQvDSvXqTM3HpjBDj5_lodnHHyKxl48r5SGbo3ZVSPZcW0-G5HA1kksJ9tM6d0PqTip1YQY-Mypolx_JpUaXnlsRTQj6PRXf",
-    mensaje: "Hola DOMI DULC'S! Quiero el Box Mixto de Alfajores y Brownies",
+    name: "Pastel de Acelga",
+    detail: "Receta salada de la casa",
+    description: "Pastel salado de acelga, ideal para compartir en la mesa dulce y salada.",
+    size: "Por porciones",
+    image: pastelAcelgaImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir el Pastel de Acelga",
+  },
+  {
+    id: "alfajores",
+    category: "individuales",
+    name: "Alfajores",
+    detail: "Con manjar artesanal",
+    description: "Alfajores de maicena rellenos de manjar, suaves y caseros.",
+    size: "Por porciones",
+    image: alfajoresImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir Alfajores",
+  },
+  {
+    id: "brownies",
+    category: "individuales",
+    name: "Brownies",
+    detail: "Chocolate intenso",
+    description: "Brownies fudgy de chocolate, horneados en el punto justo.",
+    size: "Por porciones",
+    image: browniesImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir Brownies",
+  },
+  {
+    id: "empanada-mixta",
+    category: "individuales",
+    name: "Empanada Mixta",
+    detail: "Relleno a eleccion",
+    description: "Empanadas horneadas con relleno mixto, recien hechas.",
+    size: "Por porciones",
+    image: empanadaMixtaImg,
+    mensaje: "Hola DOMI DULC'S! Quiero pedir Empanadas Mixtas",
   },
 ];
 

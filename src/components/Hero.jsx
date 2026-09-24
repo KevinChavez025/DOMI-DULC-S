@@ -85,11 +85,6 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className="hidden lg:flex absolute top-8 right-8 bg-secondary-container text-on-secondary-fixed px-4 py-2 rounded-full font-label-lg text-label-lg font-bold shadow-md items-center gap-1.5 z-10">
-        <span className="material-symbols-outlined text-secondary">star</span>
-        4.9 / 5.0 (420+ Pedidos)
-      </div>
-
       <div className="hidden lg:flex absolute bottom-8 right-8 bg-surface-container-lowest p-2 rounded-2xl shadow-[0_10px_30px_rgba(74,46,27,0.18)] items-center gap-3 z-10">
         <Img
           src={site.images.mascota}

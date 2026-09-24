@@ -4,7 +4,7 @@ const preguntas = [
   {
     titulo: "Anticipacion del pedido",
     texto:
-      "Para tortas y cajas dulces, pide con 48 horas de anticipacion. Para tortas tematicas, bodas y eventos, reserva con 1 a 2 semanas.",
+      "Para tortas y cajas dulces, pide con 72 horas de anticipacion. Para tortas tematicas, bodas y eventos, reserva con 1 a 2 semanas.",
   },
   {
     titulo: "Delivery y costo",
