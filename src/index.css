@@ -45,14 +45,14 @@ body {
 }
 
 .dark {
-  --color-background: 26 20 16;
-  --color-surface: 26 20 16;
-  --color-surface-container-low: 34 27 22;
-  --color-surface-container: 42 34 27;
-  --color-surface-container-high: 51 41 34;
-  --color-surface-container-highest: 61 50 41;
-  --color-surface-container-lowest: 34 27 22;
-  --color-primary: 240 230 220;
-  --color-on-surface-variant: 200 188 178;
-  --color-on-surface: 240 237 233;
+  --color-background: 18 18 18;
+  --color-surface: 18 18 18;
+  --color-surface-container-low: 26 26 26;
+  --color-surface-container: 33 33 33;
+  --color-surface-container-high: 42 42 42;
+  --color-surface-container-highest: 51 51 51;
+  --color-surface-container-lowest: 30 30 30;
+  --color-primary: 245 245 245;
+  --color-on-surface-variant: 176 176 176;
+  --color-on-surface: 240 240 240;
 }
